@@ -4,6 +4,8 @@
 
 @import "tailwindcss";
 
+@plugin "daisyui";
+
 
 @theme {
 
