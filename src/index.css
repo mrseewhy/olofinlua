@@ -1,0 +1,43 @@
+@import "@fontsource/manrope";
+@import "@fontsource/open-sans";
+
+
+@import "tailwindcss";
+
+
+@theme {
+
+    --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    --font-body: "Open Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+html,
+body {
+    font-family: var(--font-body);
+
+}
+
+/* 5. Base layer overrides & improvements */
+@layer base {
+    body {
+        @apply antialiased;
+        line-height: 1.5;
+
+        /* or 1.6–1.7 for even better readability with Open Sans */
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: var(--font-sans);
+        font-weight: 700;
+
+        line-height: 1.1–1.25;
+
+    }
+}
