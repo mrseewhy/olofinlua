@@ -12,5 +12,5 @@ export default defineConfig({
       },
     }), tailwindcss(),
   ],
-  base: "/olofinlua"
+  base: "/olofinlua/"
 })
