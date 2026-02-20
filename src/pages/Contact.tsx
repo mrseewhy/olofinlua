@@ -1,7 +1,11 @@
+import Header from "../components/Header"
 
 const Contact = () => {
     return (
-        <div>Contact</div>
+        <div>
+            <Header heading="Contact Me" />
+
+        </div>
     )
 }
 

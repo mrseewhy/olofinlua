@@ -1,7 +1,10 @@
+import Header from "../components/Header"
 
 const About = () => {
     return (
-        <div>About</div>
+        <div>
+            <Header heading="About Me" />
+        </div>
     )
 }
 

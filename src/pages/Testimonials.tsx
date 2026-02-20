@@ -1,7 +1,10 @@
+import Header from "../components/Header"
 
 const Testimonials = () => {
     return (
-        <div>Testimonials</div>
+        <div>
+            <Header heading="What They Said About Me" />
+        </div>
     )
 }
 

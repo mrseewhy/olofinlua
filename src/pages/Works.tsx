@@ -1,7 +1,10 @@
+import Header from "../components/Header"
 
 const Works = () => {
     return (
-        <div>Works</div>
+        <div>
+            <Header heading="Things I Have Done" />
+        </div>
     )
 }
 

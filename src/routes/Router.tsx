@@ -5,13 +5,14 @@ import Testimonials from "../pages/Testimonials";
 import Works from "../pages/Works";
 import Blog from "../pages/Blog";
 import Contact from "../pages/Contact";
+import About from "../pages/About";
 
 
 export const router = createBrowserRouter([
     {
         path: '/', element: <Layout />, children: [
             { index: true, element: <Index /> },
-            { path: "about", element: <Index /> },
+            { path: "about", element: <About /> },
             { path: "testimonials", element: <Testimonials /> },
             { path: "works", element: <Works /> },
             { path: "blog", element: <Blog /> },
