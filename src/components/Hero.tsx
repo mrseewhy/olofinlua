@@ -218,9 +218,9 @@ const Hero = () => {
             `}</style>
 
             <div
-                className="hero-root relative w-full flex flex-col overflow-hidden"
+                className="hero-root  relative w-full flex flex-col overflow-hidden"
                 style={{
-                    minHeight: "90vh",
+                    minHeight: "70vh",
                     background: "linear-gradient(135deg, #141008 0%, #1c1610 40%, #100e14 100%)",
                 }}
             >

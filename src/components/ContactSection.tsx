@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react"
+import { Link } from "react-router-dom"
 
 const contactDetails = [
     {
@@ -22,7 +23,7 @@ const contactDetails = [
     {
         icon: "📍",
         label: "Location",
-        value: "Lagos, Nigeria",
+        value: "Kent, United Kingdom",
         href: null,
     },
 ]
@@ -409,9 +410,9 @@ const ContactSection = () => {
                             })}
                         </div>
 
-                        <a href="/contact" className={`contact-cta ${triggered ? 'animate' : ''}`}>
+                        <Link to="/contact" className={`contact-cta ${triggered ? 'animate' : ''}`}>
                             Send a Message
-                        </a>
+                        </Link>
                     </div>
 
                 </div>
